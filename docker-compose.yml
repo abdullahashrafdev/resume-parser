@@ -1,0 +1,5 @@
+services:
+  resume-parser:
+    build: .
+    ports:
+      - "5001:5001"
